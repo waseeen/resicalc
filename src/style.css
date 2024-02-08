@@ -1,0 +1,109 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap"); */
+
+body,
+html {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #2b3d45;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #2a2c34;
+  width: 920px;
+}
+
+.color-selector {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.resistor {
+  margin: 10px;
+}
+
+/* Toggle.jsx */
+.toggle {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  border: solid 3px #000;
+  border-radius: 15px;
+  margin: 5px;
+  width: max-content;
+}
+
+.toggle_vertical {
+  flex-direction: column;
+}
+
+.toggle__input {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.toggle__label {
+  display: flex;
+  padding: 5px;
+  color: #000;
+  border-right: 1px solid #999;
+}
+
+.toggle_vertical > div > .toggle__label {
+  border-bottom: 1px solid #999;
+}
+
+.toggle__input:hover + .toggle__label {
+  background-color: #0f3d68;
+  color: #fff;
+}
+
+.toggle__input:checked + .toggle__label {
+  background-color: #4b9dea;
+  color: #fff;
+}
+/* //Toggle */
+
+.stripes-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calculator {
+  background-color: #fff;
+  border: solid 3px #000;
+  border-radius: 15px;
+  padding: 15px;
+  color: #000;
+}
+
+a {
+  color: #ddd;
+}
+
+a:visited {
+  color: #bbb;
+}
+
+a:hover {
+  color: #999;
+}
