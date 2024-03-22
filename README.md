@@ -3,6 +3,7 @@
 Resistor tolerance, temperature coefficient and resistance calculator. Uses TypeScript, React, Vite
 
 Deployed at [waseeen/ResiCalc](https://resicalc.waseeen.ru)
+PWA installable for offline use
 
 ## Installation
 
