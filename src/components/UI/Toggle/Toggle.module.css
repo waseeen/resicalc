@@ -1,0 +1,13 @@
+.toggle {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  border: solid 3px #000;
+  border-radius: 15px;
+  margin: 5px;
+  width: max-content;
+}
+
+.toggle_vertical {
+  flex-direction: column;
+}

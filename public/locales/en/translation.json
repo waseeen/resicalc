@@ -1,0 +1,23 @@
+{
+  "title": "Title",
+  "en": "En",
+  "ru": "Ru",
+  "resistance": "Resistance",
+  "tolerance": "Tolerance",
+  "temp": "Temperature coefficient",
+  "stripes": "stripes",
+  "stripes2": "stripes",
+  "selectStripes": "Select resistor stripes number",
+  "black": "Black",
+  "brown": "Brown",
+  "red": "Red",
+  "orange": "Orange",
+  "yellow": "Yellow",
+  "green": "Green",
+  "blue": "Blue",
+  "violet": "Violet",
+  "grey": "Grey",
+  "white": "White",
+  "gold": "Gold",
+  "silver": "Silver"
+}

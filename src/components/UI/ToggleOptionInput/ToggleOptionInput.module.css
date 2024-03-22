@@ -1,0 +1,22 @@
+.toggle__label {
+  display: flex;
+  padding: 5px;
+  color: #000;
+  border-right: 1px solid #999;
+}
+
+.toggle__input {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.toggle__input:hover + .toggle__label {
+  background-color: #0f3d68;
+  color: #fff;
+}
+
+.toggle__input:checked + .toggle__label {
+  background-color: #4b9dea;
+  color: #fff;
+}

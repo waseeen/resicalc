@@ -1,0 +1,29 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap"); */
+
+body,
+html {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #2b3d45;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+}
+
+#root {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #ddd;
+}
+
+a:visited {
+  color: #bbb;
+}
+
+a:hover {
+  color: #999;
+}
