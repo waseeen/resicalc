@@ -1,8 +1,8 @@
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap"); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body,
 html {
-  font-size: 1.1rem;
+  font-size: calc(8px + 0.4vw);
   margin: 0;
   padding: 0;
   background-color: #2b3d45;
