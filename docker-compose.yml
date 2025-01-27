@@ -1,0 +1,6 @@
+services:
+  waseeenru:
+    image: resicalc:latest
+    ports:
+      - '9999:4173'
+    container_name: resicalc
