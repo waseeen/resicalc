@@ -2,5 +2,5 @@ services:
   waseeenru:
     image: resicalc:latest
     ports:
-      - '9999:4173'
+      - '9999:80'
     container_name: resicalc

@@ -8,12 +8,14 @@ RUN npm install --frozen-lockfile
 COPY . .
 RUN npm run build:pwa
 
-FROM node:22-alpine
+FROM nginx:alpine
 
-WORKDIR /app
-COPY --from=build /app/dist ./dist
-COPY package*.json ./
+RUN rm -rf /usr/share/nginx/html/*
 
-RUN npm install --production
+COPY --from=build /app/dist /usr/share/nginx/html
 
-CMD ["npm", "run", "preview"]
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
