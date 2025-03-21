@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Toggle from './components/UI/Toggle/Toggle'
-import Wrapper from './components/UI/Wrapper/Wrapper'
 import { ToggleOption } from './types/ToggleOption'
 import Bottom from './components/UI/Bottom/Bottom'
 import Resistor from './components/Resistor/Resistor'
@@ -125,7 +124,7 @@ function App() {
   ]
 
   return (
-    <Wrapper>
+    <>
       <h1>ResiCalc</h1>
       <StripesSelector currentStripes={stripes} valueChange={switchStripes} />
       <Resistor resistorColors={resistorLines} />
@@ -147,7 +146,7 @@ function App() {
           <a href="https://github.com/waseeen/resicalc">Source code</a>
         </span>
       </Bottom>
-    </Wrapper>
+    </>
   )
 }
 
