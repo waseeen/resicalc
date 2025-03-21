@@ -12,6 +12,7 @@ import StripesSelector from './components/StripesSelector/StripesSelector'
 import { StripesValues } from './types/StripesValues'
 import ColorSelector from './components/ColorSelector/ColorSelector'
 import { useColorOptions } from './hooks/useColorOptions'
+import Wrapper from './components/UI/Wrapper/Wrapper'
 
 function App() {
   const { t, i18n } = useTranslation()
@@ -124,8 +125,7 @@ function App() {
   ]
 
   return (
-    <>
-      <h1>ResiCalc</h1>
+    <Wrapper>
       <StripesSelector currentStripes={stripes} valueChange={switchStripes} />
       <Resistor resistorColors={resistorLines} />
       <ColorSelector resistorColors={resistorLines} colorChange={changeColor} />
@@ -146,7 +146,7 @@ function App() {
           <a href="https://github.com/waseeen/resicalc">Source code</a>
         </span>
       </Bottom>
-    </>
+    </Wrapper>
   )
 }
 

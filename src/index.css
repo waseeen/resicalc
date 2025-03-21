@@ -8,6 +8,7 @@ html {
   background-color: #2b3d45;
   font-family: 'Roboto Mono', monospace;
   color: #fff;
+  text-align: center;
 }
 
 #root {
@@ -26,13 +27,4 @@ a:visited {
 
 a:hover {
   color: #999;
-}
-
-.wrapper {
-  margin-top: 0.5em;
-  border-radius: 1em;
-  padding: 1em;
-  background-color: #2a2c34;
-  width: 90%;
-  max-width: 870px;
 }
