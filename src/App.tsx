@@ -142,9 +142,6 @@ function App() {
         <span>
           ©2024 <a href="https://github.com/waseeen">waseeen</a>
         </span>
-        <span>
-          <a href="https://github.com/waseeen/resicalc">Source code</a>
-        </span>
       </Bottom>
     </Wrapper>
   )

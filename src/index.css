@@ -9,6 +9,8 @@ html {
   font-family: 'Roboto Mono', monospace;
   color: #fff;
   text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #root {
@@ -27,4 +29,8 @@ a:visited {
 
 a:hover {
   color: #999;
+}
+
+ul {
+  list-style-type: none;
 }
